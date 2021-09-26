@@ -1,0 +1,33 @@
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+
+<link href="checkPay.css" rel="stylesheet">
+<script src="checkpay.js"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script src='google.js'></script>
+        <script async
+          src="https://pay.google.com/gp/p/js/pay.js"
+          onload="onGooglePayLoaded()"></script>
+    </head>
+<body class="hello">
+
+<div class="card container">
+
+    <div class="card-body">
+        <h5 class="card-title checkTitle">Google Pay</h5>
+
+        <div id="container" style="margin-left: 85px; margin-top: 100px;"></div>
+        <button type="button" class="btn btn-danger" onclick="closeForm()">Close</button>
+    </div>
+
+</body>

@@ -1,0 +1,51 @@
+.cartDesign{
+    display: flex;  
+    justify-content: center;
+    flex-direction: row; 
+    height: 1100px;
+    
+}
+
+.container {
+    width: 30rem;
+    height: auto;
+    padding: auto;
+    /* max-height: none; */
+    position: relative;
+}
+
+.card{
+    box-shadow: 0px 5px 25px #aaa;   
+}
+
+.checkTitle{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    font-size: 40px;
+
+
+}
+
+#mySelect{
+    justify-content: center;
+    max-width: 500px; 
+    display: inline; 
+}
+
+
+.filesStyle{
+    padding: 40px;
+    margin-top: 10px;
+    margin-bottom: 70px;
+    border:1px solid #642f6c;
+    text-align: center;
+
+}
+
+.checks{
+    color: darkmagenta;
+    font-family: 'Baloo Tammudu 2', cursive;
+font-family: 'Roboto Condensed', sans-serif;
+}
+
+

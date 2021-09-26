@@ -1,0 +1,79 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+
+<link href="checkPay (1).css" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+
+<html>
+
+
+
+<body class="cartDesign">
+
+    <div class="card container">
+        <img src="SI.jpg" class="card-img-top">
+        <div class="card-body">
+            <h5 class="card-title checkTitle">Check Payment</h5><br/>
+            <p class="card-text" style="text-align: center;">Splitit gives you an option to pay by checks.</p>
+        </div>
+        <ul class="list-group list-group-flush ">
+            <div>
+                <br/>
+                <h4 style="text-align: center;">Amount:</h4>
+                <input type="search" class="form-control form-control-dark" placeholder="" aria-label="Search">
+                <br/>
+
+                <h4 style="text-align: center;">Phone Number:</h4>
+                <input type="search" class="form-control form-control-dark" placeholder="" aria-label="Search">
+                <br/>
+
+
+                <h4 style="text-align: center;">How many checks?</h4>
+                <select id="mySelect" class=" form-select" aria-label="Default select example">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                
+                </select>
+                <!-- <input type="button" class="btn btn-light" onclick="myFunction()" value="OK"
+                    style="border:1px solid #642f6c; color:#642f6c">
+                <p id="demo"></p> -->
+                <br/>
+                <br/>
+
+
+            <div class="filesStyle" >
+                <form action="/action_page.php">
+                    <label class= "checks" for="files">Front Check:</label>
+                    <input class= "checks" type="file" id="files" name="files" multiple><br><br>
+                    <label class= "checks" for="files">Back Check:</label>
+                    <input class= "checks" type="file" id="files" name="files" multiple><br><br>
+                    <input type="submit" class="checks btn btn-outline-dark" style="margin-left: 310px; ">
+
+                  </form>
+                 
+
+                <!-- <li class="list-group-item">Check number 1: </li> -->
+                <!-- <div class="checksgrid">
+                <p>Front Check: <input type="file" id="myFile" name="form" value="checkk" /></p>
+                <p>Back Check: <input type="file" value="helo" id="myFile" name="Back Check" /></p>
+               </div> -->
+            </div>
+
+            </div>
+
+        </ul>
+        <!-- <div class="card-body">
+            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a>
+        </div> -->
+    </div>
+</body>
+
+</html>

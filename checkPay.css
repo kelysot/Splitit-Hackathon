@@ -1,0 +1,92 @@
+.hello{
+    display: flex;  
+    justify-content: center;
+    flex-direction: row; 
+    background-color:#ffffff;
+    
+}
+
+.container {
+    width: 30rem;
+    height: auto;
+    padding: auto;
+    /* max-height: none; */
+    position: relative;
+}
+
+.card{
+    box-shadow: 0px 5px 25px #aaa; 
+   
+}
+
+.checkTitle{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+
+.options1{
+    color:#642f6c;
+}
+
+@import "../../../../assets/mixins/media";
+
+.cvv-container {
+  display: flex;
+  justify-content: space-between;
+
+  mat-form-field {
+    width: 47%;
+
+  }
+}
+
+select {
+  font-size: 20px;
+  border-radius: 5px;
+  text-align-last:center;
+  background-color: #F7F7F7;
+  color:#642f6c;
+}
+
+option{
+  text-align: left;
+  background-color: #F7F7F7;
+}
+
+.options1{
+  color:black;
+}
+
+.allOptions {
+  font-size: 20px;
+  text-align: center;
+  color:#642f6c;
+}
+
+.paymentOptions{
+  display: block;
+  margin: 0 auto;
+}
+
+.btn-outline-info {
+    border-color: #642f6c;
+    color: #642f6c;
+}
+
+.btn-outline-info:hover{
+    background-color: #642f6c;
+    border-color: #642f6c;
+    color: white;
+
+}
+
+.btn-danger {
+margin-left: 175px;
+margin-top: 5px;
+}
+
+.giftDiv {
+text-align: center;
+margin-top: 10px;
+}
