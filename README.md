@@ -1,31 +1,31 @@
 # Splitit Hackathon - Payments Options
 
-## TEAM NUMBER 4 - DIGITEAM
+## 👫 TEAM NUMBER 4 - DIGITEAM 👭 
 A 26-hour Hackathon that was hosted by Splitit - Won 3rd place!
 
 
-## Main Ideas:
+## Main Ideas 💡
   - The client gets a wider range of payment options by creating multiple payment solutions.
 
   - The client also can purchase a gift card of wide companies that work with Splitit.
 
-## The Problem:
+## The Problem ❔
 There is an inconvenience in the user experience - there is only one payment option that isn't necessarily convenient for everyone, payment by credit card.
 As a result, potential customers enter the site, reach the purchase page, see that there is only one payment option, and leave the site without making a purchase. Which causes a loss of potential customers.
 
-## The Solution:
+## The Solution 💻
 
 Our idea was to add three more payment options to solve the problem:
 
 The options we added are:
 
-## 1.	Google Pay
+## 1.	Google 📱
 
 Payment with Google Pay, it will be possible to pay through the mobile phone by attaching it to the payment device. </br>
 To add Google Pay - we used Google API.
 The code written in JavaScript and HTML.
 
-## 2.	QR CODE
+## 2.	QR CODE 📱
 
 After scanning the code with the mobile camera, the customer will be redirected to Splitit's payment page. </br>
 The advantages of this option: </br>
@@ -36,13 +36,13 @@ The advantages of this option: </br>
 As a future option, the QR code can also be sent by email to companies who might be interested in using the Splitit service. </br>
 We copied the URL that leads to the link of the payment page.
 
-## 3.	Checks
+## 3.	Checks 📱
 We added the option to pay with up to 6 different checks, by uploading their images. </br>
 Having the option of paying with checks is convenient for many, especially the elderly population, who prefer not to enter credit information manually themselves and know the check will be received and passed safely with this solution.
 
 In addition, we have added the option of buying a gift card:
 
-## 4.	Gift Card
+## 4.	Gift Card 🎁
 We added the ability to buy gift cards, including selecting a price based on the buyer's wishes and even adding a greeting for the recipient of the gift card. </br>
 The technologies we used: JavaScript, React, HTML, CSS. 
 
@@ -59,6 +59,6 @@ Additionally, we added the spinner of the four options for paying (including the
 
 
 
-## Team Members: 
+## 👫 Team Members 👭 
 Kely Sotsky, Liem Mazal, Amit Ben Basat, Bar Elimelech, Liel Denshferd, Yarden Tsaraf and Sagiv Mishaan.
 
